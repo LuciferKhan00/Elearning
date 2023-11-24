@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>iSchool</title>
+</head>
+
+<body>
+  <!-- start navigation -->
+  <nav class="navbar navbar-expand-sm navbar-dark px-5 fixed-top">
+
+    <a class="navbar-brand" href="index.php">iSchool</a>
+    <span class="navbar-text">Learn and Implement</span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav custom-nav px-5">
+        <li class="nav-item custom-nav-item"><a href="index.php" class="nav-link">Home</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Courses</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Payment</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">My Profile</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Logout</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Login</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Signup</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Feedback</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Contact</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid remove-vid-marg">
+    <div class="vid-parent">
+
+      <video playsinline autoplay muted loop>
+        <source src="video/banvid1.mp4">
+      </video>
+      <div class="vid-overlay">
+      </div>
+    </div>
+    <div class="vid-content">
+      <h1 class="my-content">Welcome to iSchool</h1>
+      <h5 class="my-content">Learn and Implement</h5>
+      <a href="#" class="btn btn-danger">Get Started</a>
+    </div>
+  </div>
+
+  <!-- start text banner -->
+  <div class="container-fluid bg-danger txt-banner">
+    <div class="row bottom-banner">
+      <div class="col-sm">
+        <h5><i class="fas fa-book-open me-3"></i>100+ Online Courses</h5>
+      </div>
+      <div class="col-sm">
+        <h5><i class="fas fa-users me-3"></i>Expert Instructions</h5>
+      </div>
+      <div class="col-sm">
+        <h5><i class="fa-solid fa-keyboard me-3"></i>Lifetime Access</h5>
+      </div>
+      <div class="col-sm">
+      <h5><i class="fa-solid fa-rupee-sign me-3"></i>Money Back Gurantee*</h5>
+      </div>
+
+
+    </div>
+  </div>
+ 
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/all.min.js"></script>
+
+</body>
+
+</html>
+
+<div class="container-fluid bg-danger txt-banner">
+    <div class="row bottom-banner">
+      <div class="col-sm">
+        <h5><i class="fas fa-book-open mr-3"></i>100+ Online Courses</h5>
+      </div>
+      <div class="col-sm">
+        <h5><i class="fas fa-users mr-3 "></i>Expert Instructions</h5>
+      </div>
+      <div class="col-sm">
+        <h5><i class="fas fa-keyboard mr-3"></i>Lifetime Access</h5>
+      </div>
+      <div class="col-sm">
+        <h5><i class="fas fa-rupee-sign mr-3"></i>Money Back Gurantee*</h5>
+      </div>
+    </div>
+  </div>
